@@ -415,7 +415,7 @@ export default function Home() {
       <div className="bg-white/5 border border-white/10 rounded-2xl p-10 backdrop-blur-md hover:border-purple-500/50 transition duration-300">
         <h3 className="text-xl font-semibold mb-4">LinkedIn</h3>
         <a
-          href="https://linkedin.com/in/sri-charan-bj-349039196/"
+          href="https://www.linkedin.com/in/charanbj/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-400 hover:text-purple-400 transition break-words"
