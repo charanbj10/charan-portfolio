@@ -420,7 +420,7 @@ export default function Home() {
           rel="noopener noreferrer"
           className="text-gray-400 hover:text-purple-400 transition break-words"
         >
-          linkedin.com/in/sri-charan-bj-349039196
+          linkedin.com/in/charanbj
         </a>
       </div>
 
