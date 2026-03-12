@@ -348,6 +348,42 @@ export default function Home() {
         </p>
       </div>
 
+      {/* PROJECT 4 */}
+      <div className="group relative bg-white/5 border border-white/10 rounded-2xl p-10 hover:border-purple-500/50 transition duration-300 backdrop-blur-md md:col-span-2">
+
+        <h3 className="text-2xl font-semibold mb-4">
+          AI Database Schema Generation Platform
+        </h3>
+
+        <p className="text-gray-400 leading-relaxed mb-6 max-w-3xl">
+          Built a platform that generates database schemas from user requirements using an LLM-driven workflow.
+
+          Users provide system requirements which are converted into structured technical descriptions. 
+          After user verification, the system analyzes the requirements and automatically generates 
+          database schemas.
+
+          Implemented validation stages including schema analysis and human verification to allow 
+          users to modify requirements and regenerate schemas if needed. After schema generation, 
+          the platform can execute database operations through prompt-based interactions using an 
+          MCP server, enabling users to interact with the generated database directly.
+        </p>
+
+        <div className="flex flex-wrap gap-3 mb-6">
+          {["LLM", "Schema Analyzer", "Schema Generator", "Human Verification", "MCP Server", "Python"].map((tech) => (
+            <span
+              key={tech}
+              className="px-3 py-1 text-sm rounded-full border border-white/20 text-gray-300"
+            >
+              {tech}
+            </span>
+          ))}
+        </div>
+
+        <p className="text-purple-400 font-semibold">
+          AI-Assisted Database Design & Execution Platform
+        </p>
+      </div>
+
     </div>
   </div>
 </section>
